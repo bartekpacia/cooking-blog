@@ -19,6 +19,12 @@
   float: left;
   transition: color 0.2s ease-in-out;
 
+  img {
+    display: inline-block;
+    height: 60px;
+    width: 111px;
+  }
+
   &,
   &:visited {
     color: $grey-color-dark;
@@ -86,7 +92,7 @@
       text-align: center;
 
       > svg {
-        fill: $grey-color-dark;
+        fill: $color-accent;
       }
     }
 
