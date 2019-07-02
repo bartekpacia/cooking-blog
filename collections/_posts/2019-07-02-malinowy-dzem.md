@@ -25,3 +25,5 @@ A więc pobrudźmy sobie rączki i zróbmy go.
 Jeśli potrzebujesz wideoinstrukcji, znajdziesz ją [tutaj](https://youtu.be/qvREHyukpgQ).
 
 > Przewiń do 16 sekundy
+
+A jeśli chcesz zobaczyć jak wygląda ta strona od strony kodu, kliknij [tutaj](https://raw.githubusercontent.com/bartekpacia/taste-tester-blog/master/collections/_posts/2019-07-02-malinowy-dzem.md)
