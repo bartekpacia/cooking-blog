@@ -12,9 +12,9 @@ difficulty: 1
 
 Czas: 45 min Ilość: 5 os. Trudność: 🔪
 
-### Składniki
+## Składniki
 
-- 300g Makaronu tagliatelle
+- 300g makaronu tagliatelle
 - 500g piersi z indyka
 - 3 łyżki oliwy z pomidorów suszonych
 - 1 cebula
@@ -26,14 +26,16 @@ Czas: 45 min Ilość: 5 os. Trudność: 🔪
 - Pomidorki koktajlowe (u mnie żółte i czerwone)
 - Opakowanie rukoli
 - Pomidory suszone i parmezan do ozdoby przy podaniu
-  Marynata:
+
+#### Marynata:
+
 - 1 łyżka musztardy francuskiej
 - 1,5 łyżki przyprawy do indyka
 - 1 łyżeczka papryki słodkiej, ziół prowansalskich i czosnku granulowanego
 - Szczypta gałki muszkatołowej
 - Sól i pieprz do smaku
 
-### Wykonanie
+## Wykonanie
 
 1. Mięso umyć i połączyć z marynatą, odstawić.
 2. Na 2 łyżkach oliwy zeszklić pokrojoną w kosteczkę cebulę.

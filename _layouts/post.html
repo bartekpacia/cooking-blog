@@ -18,6 +18,21 @@ layout: default
             <span class="post-meta category">{{ category }}</span>
         {%- endfor -%}
       {%- endif -%}
+      {%- if page.time -%}
+        <span class="meta-icon">⏰</span>
+        <span class="post-meta">{{ page.time }}</span>
+      {%- endif -%}
+      {%- if page.quantity -%}
+        <span class="meta-icon">👨</span>
+        <span class="post-meta">{{ page.quantity }}</span>
+      {%- endif -%}
+      {%- if page.difficulty -%}
+        <span class="post-meta difficulty">Trudność: </span>
+        {% capture max %}{{ page.difficulty }} {% endcapture %}
+        {% for i in (1..max) %}
+          <span>🔪</span>
+        {%- endfor -%}
+      {%- endif -%}
     </p>
   </header>
 
