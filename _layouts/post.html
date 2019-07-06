@@ -7,8 +7,23 @@ layout: default
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p>
       <time class="post-meta date-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
+        {% assign m = page.date | date: "%-m" %}
+        {{ page.date | date: "%-d" }}
+        {% case m %}
+          {% when '1' %}styczeń
+          {% when '2' %}luty
+          {% when '3' %}marzec
+          {% when '4' %}kwiecień
+          {% when '5' %}maj
+          {% when '6' %}czerwiec
+          {% when '7' %}lipiec
+          {% when '8' %}sierpień
+          {% when '9' %}wrzesień
+          {% when '10' %}październik
+          {% when '11' %}listopad
+          {% when '12' %}grudzień
+        {% endcase %}
+        {{ page.date | date: "%Y" }}
       </time>
       {%- if page.author -%}
         <span class="post-meta">• {{ page.author }}</<span>
