@@ -9,7 +9,7 @@ quantity: 5
 difficulty: 1
 ---
 
-![jam photo](https://www.winiary.pl/image.ashx/makaron-z-kurczakiem-i-pomidorami.jpg?fileID=220818&width=800&height=800&frame=True&quality=84&bg=0)
+![Zdjęcie dania](https://i.imgur.com/OqhDO5R.jpg)
 
 ## Składniki
 
@@ -46,4 +46,7 @@ difficulty: 1
 8. Dorzucić pokrojone w ćwiartki pomidorki i dalej gotować przez ok 5 min.
 9. Ściągnąć z płytki. Dodać rukolę i całość przykryć na 2-3 min.
 10. Ściągnąć pokrywę. Danie podawać obsypane tartym na małych oczkach parmezanem i pokrojonymi w kosteczkę pomidorami suszonymi.
-    Smacznego!
+
+> Smacznego!
+
+![Zdjęcie dania](https://i.imgur.com/GGYrbCW.jpg)
