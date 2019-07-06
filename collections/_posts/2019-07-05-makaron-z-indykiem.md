@@ -11,8 +11,6 @@ difficulty: 1
 
 ![jam photo](https://www.winiary.pl/image.ashx/makaron-z-kurczakiem-i-pomidorami.jpg?fileID=220818&width=800&height=800&frame=True&quality=84&bg=0)
 
-Czas: 45 min Ilość: 5 os. Trudność: 🔪
-
 ## Składniki
 
 - 300g makaronu tagliatelle

@@ -5,7 +5,7 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p>
+    <p class="post-meta">
       <time class="post-meta date-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {% assign m = page.date | date: "%-m" %}
         {{ page.date | date: "%-d" }}
@@ -26,19 +26,21 @@ layout: default
         {{ page.date | date: "%Y" }}
       </time>
       {%- if page.author -%}
-        <span class="post-meta">• {{ page.author }}</<span>
+        <span class="post-meta">• {{ page.author }}</span>
       {%- endif -%}
       {%- if page.categories.size > 0 -%}
         {%- for category in page.categories %}
             <span class="post-meta category">{{ category }}</span>
         {%- endfor -%}
       {%- endif -%}
+      </p>
+      <p class="post-meta">
       {%- if page.time -%}
         <span class="meta-icon">⏰</span>
         <span class="post-meta">{{ page.time }}</span>
       {%- endif -%}
       {%- if page.quantity -%}
-        <span class="meta-icon">👨</span>
+        <span class="meta-icon meta-left-padding">👨</span>
         <span class="post-meta">{{ page.quantity }}</span>
       {%- endif -%}
       {%- if page.difficulty -%}
