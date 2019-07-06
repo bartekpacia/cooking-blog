@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Makaron z indykiem, pomidorkami koktajlowymi i rukolą w sosie serowym"
+permalink: /makaron-z-indykiem-pomidorkami-i-rukola-w-sosie
 date: 2019-07-02 15:50:30 +0200
 categories: przepis obiad
 time: 45 min

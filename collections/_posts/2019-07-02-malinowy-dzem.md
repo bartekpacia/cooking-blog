@@ -1,8 +1,11 @@
 ---
 layout: post
 title: "Letni, domowy, malinowy dżem"
+permalink: /example-first-post
 date: 2019-07-02 15:50:30 +0200
 categories: przepis lato zajebiste
+time: 2 godz
+quantity: 4
 ---
 
 ![jam photo](https://szefpoleca.pl/wp-content/uploads/2016/12/wysmienity-dzem-malinowy.jpg)
