@@ -20,6 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/taste-tester-blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: testersmakow
+disqus_shortname: taste-tester-blog
 
 collections_dir: collections
 collections:
