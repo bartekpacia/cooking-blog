@@ -5,7 +5,7 @@ thumbnail: https://szefpoleca.pl/wp-content/uploads/2016/12/wysmienity-dzem-mali
 permalink: /example-first-post
 date: 2019-07-02 15:50:30 +0200
 categories: przepis lato zajebiste
-time: 2 godz
+time: 2 h
 quantity: 4
 difficulty: 3
 ---

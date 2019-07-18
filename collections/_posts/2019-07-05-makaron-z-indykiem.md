@@ -27,7 +27,7 @@ difficulty: 1
 - Opakowanie rukoli
 - Pomidory suszone i parmezan do ozdoby przy podaniu
 
-#### Marynata:
+**Marynata:**
 
 - 1 łyżka musztardy francuskiej
 - 1,5 łyżki przyprawy do indyka
