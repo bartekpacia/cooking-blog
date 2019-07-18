@@ -4,15 +4,18 @@
 }
 
 .post {
-  margin-bottom: $spacing-unit;
   display: flex;
+  margin-bottom: $spacing-unit / 2;
+  padding-bottom: $spacing-unit / 3;
+  border-bottom: 2px solid $grey-color-light;
 }
 
 .post__thumbnail {
-  display: inline-block;
-  width: 240px;
+  min-width: 240px;
   height: 180px;
-  object-fit: cover;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
 }
 
 .post__title {
@@ -34,4 +37,29 @@
   margin-left: 5px;
   font-size: $small-font-size;
   color: $grey-color;
+}
+
+.post__link {
+  display: block;
+  @include relative-font-size(1.5);
+}
+
+@include media-query($on-palm) {
+  .post {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+  }
+
+  .post__thumbnail {
+    min-height: 270px;
+  }
+
+  .post__title {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: $spacing-unit / 4;
+    padding-left: 0;
+  }
 }
