@@ -10,17 +10,12 @@
   border-bottom: 2px solid $grey-color-light;
 }
 
-.post__thumbnail__container {
+.post__thumbnail {
   min-width: 240px;
-  max-width: 240px;
   height: 180px;
   display: inline-block;
-}
-
-.post__thumbnail {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  background-size: cover;
+  background-position: center;
 }
 
 .post__title {
@@ -51,24 +46,20 @@
 
 @include media-query($on-palm) {
   .post {
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     flex-direction: column;
   }
 
-  .post__thumbnail__container {
-    margin: 0 auto;
-  }
-
   .post__thumbnail {
-    max-width: 1000px;
-    width: 100%;
+    min-height: 270px;
   }
 
   .post__title {
     margin: 0 auto;
     width: 100%;
+    padding-top: $spacing-unit / 4;
     padding-left: 0;
   }
 }

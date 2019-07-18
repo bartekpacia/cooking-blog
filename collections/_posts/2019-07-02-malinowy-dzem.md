@@ -8,6 +8,8 @@ categories: przepis lato zajebiste
 time: 2 h
 quantity: 4
 difficulty: 3
+
+published: false
 ---
 
 ![jam photo](https://szefpoleca.pl/wp-content/uploads/2016/12/wysmienity-dzem-malinowy.jpg)
