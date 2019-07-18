@@ -1,14 +1,8 @@
 ---
-layout: default
+layout: page
 ---
 
 <div>
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-
   <ul class="posts">
     {%- for post in site.posts -%}
     <div class="post">
@@ -37,6 +31,4 @@ layout: default
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  
-
 </div>

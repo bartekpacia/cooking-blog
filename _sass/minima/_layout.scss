@@ -207,47 +207,6 @@
   margin-bottom: $spacing-unit;
 }
 
-.posts {
-  margin-left: 0;
-  list-style: none;
-}
-
-/*
- * Post on the posts list
- */
-.post {
-  margin-bottom: $spacing-unit;
-  display: flex;
-}
-
-.post__thumbnail {
-  display: inline-block;
-  width: 240px;
-  height: 180px;
-  object-fit: cover;
-}
-
-.post__title {
-  display: inline-block;
-  padding-left: $spacing-unit / 3;
-}
-
-.post__categories {
-  display: inline-block;
-
-  :first-child {
-    margin-left: 0;
-  }
-}
-
-.post__category {
-  background-color: $grey-color-light;
-  padding: 2px 2px;
-  margin-left: 5px;
-  font-size: $small-font-size;
-  color: $grey-color;
-}
-
 p.post-meta {
   margin-bottom: 4px;
 }
