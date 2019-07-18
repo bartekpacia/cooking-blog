@@ -6,7 +6,9 @@ layout: page
   <ul class="posts">
     {%- for post in site.posts -%}
     <div class="post">
-      <img class="post__thumbnail" src="{{ post.thumbnail }}" alt="{{ post.title }}">
+      <div class="post__thumbnail__container">
+        <img class="post__thumbnail" src="{{ post.thumbnail }}" alt="{{ post.title }}">
+      </div>
       <div class="post__title">
         <time class="post-meta date-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
