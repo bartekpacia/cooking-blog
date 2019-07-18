@@ -203,27 +203,18 @@
   @include relative-font-size(1.75);
 }
 
-.post-list {
-  margin-left: 0;
-  list-style: none;
-
-  .thumbnail {
-    display: inline-block;
-    width: 300px;
-    height: 220px;
-    object-fit: cover;
-    vertical-align: top;
-
-    + div {
-      display: inline-block;
-    }
-  }
-}
-
 .post-content {
   margin-bottom: $spacing-unit;
 }
 
+.posts {
+  margin-left: 0;
+  list-style: none;
+}
+
+/*
+ * Post on the posts list
+ */
 .post {
   margin-bottom: $spacing-unit;
   display: flex;

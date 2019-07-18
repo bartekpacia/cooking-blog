@@ -2,14 +2,14 @@
 layout: default
 ---
 
-<div class="home">
+<div>
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
   {{ content }}
 
-  <ul class="post-list">
+  <ul class="posts">
     {%- for post in site.posts -%}
     <div class="post">
       <img class="post__thumbnail" src="{{ post.thumbnail }}" alt="{{ post.title }}">
