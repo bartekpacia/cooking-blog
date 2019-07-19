@@ -2,6 +2,7 @@
 layout: post
 title: "Ziemniaczana zapiekanka z kurczakiem, pieczarkami i papryką"
 thumbnail: https://i.imgur.com/Hh9zmBr.jpg
+permalink: /ziemniaczana-zapiekanka-z-kurczakiem-pieczarkami-i-papryka
 date: 2019-07-18 13:23:00 +0200
 categories: przepis obiad zapiekanka kurczak
 time: 1.5 h
