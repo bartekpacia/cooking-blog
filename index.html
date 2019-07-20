@@ -5,13 +5,13 @@ layout: default
 <div class="main">
   <img class="logo" src="https://i.imgur.com/kKgB5O9.jpg"/>
   <i>"Nie ma bardziej szczerej miłości na świecie, niż miłość to jedzenia"</i> ~ Bernard Shaw
-  <h3 class="featured-posts__leading">Najnowsze przepisy</h3>
+  <h2 class="featured-posts__leading">Najnowsze przepisy</h2>
   <div class="featured-posts">
   {%- for post in site.posts -%}
     <div class="featured-post">
       <div class="featured-post__thumbnail" style="background-image:url({{ post.thumbnail }})"></div>
       <div class="featured-post__content">
-        <h4 class="featured-post__title"><a class="featured-post__link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
+        <h3 class="featured-post__title"><a class="featured-post__link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
       </div>
     </div>
   {%- endfor -%}
