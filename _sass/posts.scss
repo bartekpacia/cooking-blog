@@ -1,16 +1,16 @@
-.posts {
+.post-list {
   margin-left: 0;
   list-style: none;
 }
 
-.post {
+.post-list__post {
   display: flex;
   margin-bottom: $spacing-unit / 2;
   padding-bottom: $spacing-unit / 3;
   border-bottom: 2px solid $grey-color-light;
 }
 
-.post__thumbnail {
+.post-list__post__thumbnail {
   min-width: 240px;
   height: 180px;
   display: inline-block;
@@ -19,12 +19,12 @@
   border-radius: 5%;
 }
 
-.post__content {
+.post-list__post__content {
   display: inline-block;
   padding-left: $spacing-unit / 3;
 }
 
-.post__categories {
+.post-list__post__categories {
   display: inline-block;
 
   :first-child {
@@ -32,7 +32,7 @@
   }
 }
 
-.post__category {
+.post-list__post__category {
   background-color: $grey-color-light;
   padding: 2px 2px;
   margin-left: 5px;
@@ -40,17 +40,17 @@
   color: $grey-color;
 }
 
-.post__title {
+.post-list__post__title {
   margin-bottom: $spacing-unit / 4;
 }
 
-.post__link {
+.post-list__post__link {
   display: block;
   @include relative-font-size(1.5);
 }
 
 @include media-query($on-palm) {
-  .post {
+  .post-list__post {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -58,11 +58,11 @@
     padding-bottom: 0;
   }
 
-  .post__thumbnail {
+  .post-list__post__thumbnail {
     min-height: 270px;
   }
 
-  .post__content {
+  .post-list__post__content {
     margin: 0 auto;
     width: 100%;
     padding-top: $spacing-unit / 4;

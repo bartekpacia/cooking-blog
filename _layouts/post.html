@@ -5,38 +5,34 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="post-meta date-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+    <div class="meta">
+      <time class="meta__date-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {% assign date = page.date %}
         {% assign m = date | date: "%-m" %}
         {%- include date.html -%}
       </time>
-      {%- if page.author -%}
-        <span class="post-meta">• {{ page.author }}</span>
-      {%- endif -%}
       {%- if page.categories.size > 0 -%}
         {%- for category in page.categories %}
-            <span class="post-meta category">{{ category }}</span>
+            <span class="meta meta__category">{{ category }}</span>
         {%- endfor -%}
       {%- endif -%}
-      </p>
-      <p class="post-meta">
       {%- if page.time -%}
         <span class="meta-icon">⏰</span>
-        <span class="post-meta">{{ page.time }}</span>
+        <span>{{ page.time }}</span>
       {%- endif -%}
       {%- if page.quantity -%}
         <span class="meta-icon meta-left-padding">👨</span>
-        <span class="post-meta">{{ page.quantity }}</span>
+        <span>{{ page.quantity }}</span>
       {%- endif -%}
       {%- if page.difficulty -%}
-        <span class="post-meta difficulty">Trudność: </span>
+        <span class="difficulty">Trudność: </span>
         {% capture max %}{{ page.difficulty }} {% endcapture %}
         {% for i in (1..max) %}
           <span>🔪</span>
         {%- endfor -%}
       {%- endif -%}
-    </p>
+    </div>
+  
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">

@@ -5,23 +5,23 @@ permalink: /recipes/
 ---
 
 <div>
-  <ul class="posts">
+  <ul class="post-list">
     {%- for post in site.posts -%}
-    <div class="post">
-      <div class="post__thumbnail" style="background-image: url( {{ post.thumbnail }} )"></div>
-      <div class="post__content">
-        <time class="post-meta date-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+    <div class="post-list__post">
+      <div class="post-list__post__thumbnail" style="background-image: url( {{ post.thumbnail }} )"></div>
+      <div class="post-list__post__content">
+        <time class="meta meta__date-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
             {% assign date = post.date %}
             {% assign m = date | date: "%-m" %}
             {%- include date.html -%}
         </time>
-        <div class="post__categories">
+        <div class="post-list__post__categories">
             {%- for category in post.categories -%}
-            <span class="post__category">{{ category }}</span>
+            <span class="post-list__post__category">{{ category }}</span>
           {%- endfor -%}
         </div>
-        <h3 class="post__title">
-          <a class="post__link" href="{{ post.url | relative_url }}">
+        <h3 class="post-list__post__title">
+          <a class="post-list__post__link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
         </h3>

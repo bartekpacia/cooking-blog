@@ -207,26 +207,46 @@
   margin-bottom: $spacing-unit;
 }
 
-p.post-meta {
-  margin-bottom: 4px;
-}
+// p.post-meta {
+//   margin-bottom: 4px;
+// }
 
-.post-meta {
+// .post-meta {
+//   font-size: $small-font-size;
+//   color: $grey-color;
+
+//   &.date-published {
+//     margin-right: 2px;
+//   }
+
+//   &.category {
+//     background-color: $grey-color-light;
+//     padding: 2px 3px;
+//   }
+
+//   &.difficulty {
+//     margin-left: 7px;
+//   }
+// }
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
   font-size: $small-font-size;
   color: $grey-color;
+}
 
-  &.date-published {
-    margin-right: 2px;
-  }
+.meta__date-published {
+  margin-right: 2px;
+}
 
-  &.category {
-    background-color: $grey-color-light;
-    padding: 2px 3px;
-  }
+.meta__category {
+  background-color: $grey-color-light;
+  padding: 2px 3px;
+}
 
-  &.difficulty {
-    margin-left: 7px;
-  }
+.meta__difficulty {
+  margin-left: 7px;
 }
 
 /**
