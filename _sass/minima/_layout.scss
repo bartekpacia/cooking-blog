@@ -69,7 +69,6 @@
     top: 9px;
     right: $spacing-unit / 2;
     background-color: $background-color;
-    border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: right;
 
@@ -107,6 +106,7 @@
     }
 
     .page-link {
+      border-bottom: 2px solid $color-accent;
       display: block;
       padding: 5px 10px;
 
