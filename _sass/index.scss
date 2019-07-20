@@ -34,8 +34,6 @@ i {
   display: inline-flex;
   width: 30%;
   flex-direction: column;
-
-  border-radius: 5%;
 }
 
 .featured-post__thumbnail {
@@ -56,6 +54,7 @@ i {
 
 .featured-post__title {
   text-align: center;
+  margin-bottom: $spacing-unit / 4;
 }
 
 .featured-post__link {
@@ -79,7 +78,8 @@ i {
 
   .featured-post {
     width: 100%;
-    margin-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit / 4;
+    border-bottom: 2px solid $grey-color-light;
   }
 
   .featured-post__thumbnail {

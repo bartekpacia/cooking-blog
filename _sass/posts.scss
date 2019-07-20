@@ -19,7 +19,7 @@
   border-radius: 5%;
 }
 
-.post__title {
+.post__content {
   display: inline-block;
   padding-left: $spacing-unit / 3;
 }
@@ -40,6 +40,10 @@
   color: $grey-color;
 }
 
+.post__title {
+  margin-bottom: $spacing-unit / 4;
+}
+
 .post__link {
   display: block;
   @include relative-font-size(1.5);
@@ -58,7 +62,7 @@
     min-height: 270px;
   }
 
-  .post__title {
+  .post__content {
     margin: 0 auto;
     width: 100%;
     padding-top: $spacing-unit / 4;
