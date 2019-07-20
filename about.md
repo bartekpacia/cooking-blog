@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 Nazywam się Julia. Mój przepis na życie to kochająca rodzina, wspaniali
-przyjaciele, miłośc i pasja, którą jest gotowanie i pieczenie. Uwielbiam
+przyjaciele, miłość i pasja, którą jest gotowanie i pieczenie. Uwielbiam
 również podróże.
 
 Nazwa _Tester Smaków_ w pełni oddaje mój charakter. Lubię próbować, ryzykować,
