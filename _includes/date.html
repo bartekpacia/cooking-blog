@@ -1,0 +1,16 @@
+{{ date | date: "%-d" }}
+    {% case m %}
+        {% when '1' %}styczeń
+        {% when '2' %}luty
+        {% when '3' %}marzec
+        {% when '4' %}kwiecień
+        {% when '5' %}maj
+        {% when '6' %}czerwiec
+        {% when '7' %}lipiec
+        {% when '8' %}sierpień
+        {% when '9' %}wrzesień
+        {% when '10' %}październik
+        {% when '11' %}listopad
+        {% when '12' %}grudzień
+    {% endcase %}
+{{ date | date: "%Y" }}
