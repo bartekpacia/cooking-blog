@@ -1,45 +1,47 @@
 ---
 layout: default
 ---
-<article class="post-content h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="page__content h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="post-meta date-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+  <header class="page__header">
+    <h1 class="post__title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <div class="meta">
+      <time class="meta__date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {% assign date = page.date %}
         {% assign m = date | date: "%-m" %}
         {%- include date.html -%}
       </time>
-      {%- if page.author -%}
-        <span class="post-meta">• {{ page.author }}</span>
-      {%- endif -%}
       {%- if page.categories.size > 0 -%}
         {%- for category in page.categories %}
-            <span class="post-meta category">{{ category }}</span>
+            <span class="meta meta__category">{{ category }}</span>
         {%- endfor -%}
       {%- endif -%}
-      </p>
-      <p class="post-meta">
       {%- if page.time -%}
-        <span class="meta-icon">⏰</span>
-        <span class="post-meta">{{ page.time }}</span>
+      <div class="meta__time">
+        <span>⏰</span>
+        <span>{{ page.time }}</span>
+      </div>
       {%- endif -%}
       {%- if page.quantity -%}
-        <span class="meta-icon meta-left-padding">👨</span>
-        <span class="post-meta">{{ page.quantity }}</span>
+      <div class="meta__quantity">
+        <span>👨</span>
+        <span>{{ page.quantity }}</span>
+      </div>
       {%- endif -%}
       {%- if page.difficulty -%}
-        <span class="post-meta difficulty">Trudność: </span>
+      <div class="meta__difficulty">
+        <span">Trudność: </span">
         {% capture max %}{{ page.difficulty }} {% endcapture %}
         {% for i in (1..max) %}
           <span>🔪</span>
         {%- endfor -%}
+      </div>
       {%- endif -%}
-    </p>
+    </div>
+  
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="page__content e-content" itemprop="articleBody">
     {{ content }}
   </div>
 

@@ -194,7 +194,7 @@
   flex: 1;
 }
 
-.page-heading {
+.page__heading {
   @include relative-font-size(2);
   color: $color-accent;
 }
@@ -203,40 +203,74 @@
   @include relative-font-size(1.75);
 }
 
-.post-content {
+.page__content {
   margin-bottom: $spacing-unit;
 }
 
-p.post-meta {
-  margin-bottom: 4px;
-}
+// p.post-meta {
+//   margin-bottom: 4px;
+// }
 
-.post-meta {
+// .post-meta {
+//   font-size: $small-font-size;
+//   color: $grey-color;
+
+//   &.date-published {
+//     margin-right: 2px;
+//   }
+
+//   &.category {
+//     background-color: $grey-color-light;
+//     padding: 2px 3px;
+//   }
+
+//   &.difficulty {
+//     margin-left: 7px;
+//   }
+// }
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
   font-size: $small-font-size;
   color: $grey-color;
+}
 
-  &.date-published {
-    margin-right: 2px;
-  }
+.meta__date {
+  margin-right: 2px;
+}
 
-  &.category {
-    background-color: $grey-color-light;
-    padding: 2px 3px;
-  }
+.meta__category {
+  margin-left: 4px;
+  background-color: $grey-color-light;
+  padding: 2px 3px;
+}
 
-  &.difficulty {
-    margin-left: 7px;
-  }
+.meta__time {
+  margin-left: 5px;
+}
+
+.meta__quantity {
+  margin-left: 5px;
+}
+
+.meta__difficulty {
+  margin-left: 7px;
+  margin-right: 5px;
+}
+
+.meta__icon {
+  margin-left: 5px;
 }
 
 /**
  * Posts
  */
-.post-header {
+.page__header {
   margin-bottom: $spacing-unit;
 }
 
-.post-title {
+.post__title {
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
@@ -247,9 +281,7 @@ p.post-meta {
   }
 }
 
-.post-content {
-  margin-bottom: $spacing-unit;
-
+.page__content {
   h2 {
     @include relative-font-size(2);
 
