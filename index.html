@@ -10,8 +10,8 @@ layout: default
   {%- for post in site.posts -%}
     <div class="featured-post">
       <div class="featured-post__thumbnail" style="background-image:url({{ post.thumbnail }})"></div>
-      <div class="featured-post__title">
-        <h4>{{ post.title }}</h4>
+      <div class="featured-post__content">
+        <h4 class="featured-post__title">{{ post.title }}</h4>
       </div>
     </div>
   {%- endfor -%}
