@@ -10,21 +10,21 @@ permalink: /recipes/
     <div class="post-list__post">
       <div class="post-list__post__thumbnail" style="background-image: url( {{ post.thumbnail }} )"></div>
       <div class="post-list__post__content">
-        <time class="meta meta__date-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+        <time class="meta meta__date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
             {% assign date = post.date %}
             {% assign m = date | date: "%-m" %}
             {%- include date.html -%}
         </time>
+        <h3 class="post-list__post__title">
+            <a class="post-list__post__link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
         <div class="post-list__post__categories">
             {%- for category in post.categories -%}
             <span class="post-list__post__category">{{ category }}</span>
           {%- endfor -%}
         </div>
-        <h3 class="post-list__post__title">
-          <a class="post-list__post__link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}

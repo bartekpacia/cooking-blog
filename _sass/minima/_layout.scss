@@ -194,7 +194,7 @@
   flex: 1;
 }
 
-.page-heading {
+.page__heading {
   @include relative-font-size(2);
   color: $color-accent;
 }
@@ -203,7 +203,7 @@
   @include relative-font-size(1.75);
 }
 
-.post-content {
+.page__content {
   margin-bottom: $spacing-unit;
 }
 
@@ -236,27 +236,41 @@
   color: $grey-color;
 }
 
-.meta__date-published {
+.meta__date {
   margin-right: 2px;
 }
 
 .meta__category {
+  margin-left: 4px;
   background-color: $grey-color-light;
   padding: 2px 3px;
 }
 
+.meta__time {
+  margin-left: 5px;
+}
+
+.meta__quantity {
+  margin-left: 5px;
+}
+
 .meta__difficulty {
   margin-left: 7px;
+  margin-right: 5px;
+}
+
+.meta__icon {
+  margin-left: 5px;
 }
 
 /**
  * Posts
  */
-.post-header {
+.page__header {
   margin-bottom: $spacing-unit;
 }
 
-.post-title {
+.post__title {
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
@@ -267,9 +281,7 @@
   }
 }
 
-.post-content {
-  margin-bottom: $spacing-unit;
-
+.page__content {
   h2 {
     @include relative-font-size(2);
 
