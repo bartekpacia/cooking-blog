@@ -24,7 +24,7 @@ difficulty: 2
 - 2 jajka
 - 150g sera żółtego
 
-**Przyprawy:**
+### Przyprawy:
 
 **Do kurczaka:**
 
