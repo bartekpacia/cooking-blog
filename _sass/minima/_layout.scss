@@ -237,30 +237,56 @@
 }
 
 .meta__date {
-  margin-right: 2px;
+  margin-right: 6px;
 }
 
 .meta__category {
-  margin-left: 4px;
+  margin-right: 4px;
   background-color: $grey-color-light;
   padding: 2px 3px;
+
+  &:last-of-type {
+    margin-right: 7px;
+  }
 }
 
 .meta__time {
-  margin-left: 5px;
+  margin-right: 8px;
 }
 
 .meta__quantity {
-  margin-left: 5px;
+  margin-right: 8px;
 }
 
 .meta__difficulty {
-  margin-left: 7px;
   margin-right: 5px;
 }
 
 .meta__icon {
-  margin-left: 5px;
+  margin-right: -4px;
+}
+
+.tooltip {
+  position: relative;
+  overflow: visible;
+
+  &:hover .tooltip__text {
+    opacity: 1;
+  }
+}
+
+.tooltip__text {
+  display: block;
+  position: absolute;
+  bottom: 110%;
+  opacity: 0;
+  z-index: 1;
+  background-color: $grey-color-dark;
+  color: whitesmoke;
+  padding: 2px 4px;
+  border-radius: 100px; // Works anyway :D
+  white-space: nowrap;
+  transition: opacity 0.4s;
 }
 
 /**

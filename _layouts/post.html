@@ -17,15 +17,17 @@ layout: default
         {%- endfor -%}
       {%- endif -%}
       {%- if page.time -%}
-      <div class="meta__time">
-        <span>⏰</span>
+      <div class="meta__time tooltip">
+        <span class="meta__icon">⏰</span>
         <span>{{ page.time }}</span>
+        <span class="tooltip__text">Czas przygotowania</span>
       </div>
       {%- endif -%}
       {%- if page.quantity -%}
-      <div class="meta__quantity">
-        <span>👨</span>
+      <div class="meta__quantity tooltip">
+        <span class="meta__icon">👨</span>
         <span>{{ page.quantity }}</span>
+        <span class="tooltip__text">Liczba porcji</span>
       </div>
       {%- endif -%}
       {%- if page.difficulty -%}
