@@ -36,23 +36,39 @@
   }
 }
 
-#search-input {
-  display: inline-block;
+.search {
   position: relative;
 }
 
-#results-container {
+.search__input {
+  display: inline-block;
+  border: 2px solid $color-accent;
+  padding: 3px;
+  margin-right: 20px;
+  border-radius: 15px;
+}
+
+.search__results {
   display: inline-block;
   position: absolute;
-  background-color: $grey-color-light;
+  background-color: whitesmoke;
 
   li {
+    margin-top: 5px;
+    border: 2px solid $color-accent;
+    padding: $spacing-unit / 4;
+    list-style: none;
     line-height: normal;
   }
 }
 
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .site-nav {
-  float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {

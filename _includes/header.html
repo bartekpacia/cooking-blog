@@ -7,9 +7,13 @@
       {{ site.title | escape }}
     </a>
 
+    <div class="search">
+        <input type="text" class="search__input" id="search-input" placeholder="Szukaj przepisów">
+        <div class="search__results" id="results-container"></div>
+    </div>
+    
+
     <nav class="site-nav">
-      <input type="text" id="search-input" placeholder="search posts..">
-      <div id="results-container"></div>
 
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
       <label for="nav-trigger">
