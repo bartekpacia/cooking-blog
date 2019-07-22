@@ -14,15 +14,15 @@ difficulty: 2
 
 ## Składniki:
 
-- 0,5 kg ziemniaków
+- 0.5 kg ziemniaków
 - 2 piersi z kurczaka
 - 1 cebula
 - 2 ząbki czosnku
-- 500 g pieczarek
+- 0.5 kg g pieczarek
 - 1/4 papryki czerwonej, żółtej i zielonej
 - 200 ml śmietanki 30%-
 - 2 jajka
-- 150g sera żółtego
+- 150 g sera żółtego
 
 ### Przyprawy:
 

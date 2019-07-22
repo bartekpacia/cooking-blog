@@ -6,7 +6,7 @@ permalink: /about/
 
 ![Imgur](https://i.imgur.com/fICQDfO.png){: .gallery-thumb}
 
-Nazywam się Julia. Mój przepis na życie to kochająca rodzina, wspaniali przyjaciele, miłość i pasją, którą jest gotowanie i pieczenie. Uwielbiam również podróżować.
+Nazywam się Julia. Mój przepis na życie to kochająca rodzina, wspaniali przyjaciele, miłość i pasja, którą jest gotowanie i pieczenie. Uwielbiam również podróżować.
 
 ![Imgur](https://i.imgur.com/LevFESw.jpg)
 
