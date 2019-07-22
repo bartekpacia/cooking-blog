@@ -36,6 +36,21 @@
   }
 }
 
+#search-input {
+  display: inline-block;
+  position: relative;
+}
+
+#results-container {
+  display: inline-block;
+  position: absolute;
+  background-color: $grey-color-light;
+
+  li {
+    line-height: normal;
+  }
+}
+
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
