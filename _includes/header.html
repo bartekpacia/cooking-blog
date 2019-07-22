@@ -1,20 +1,16 @@
 <header class="site-header" role="banner">
-
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
       {{ site.title | escape }}
+      <!-- <img src="https://i.imgur.com/kKgB5O9.jpg"> -->
     </a>
 
-    <div class="search">
-        <input type="text" class="search__input" id="search-input" placeholder="Szukaj przepisów">
-        <div class="search__results" id="results-container"></div>
-    </div>
-    
+    <div class="nav-container">
+      <a class="page-link search__link" href="{{ site.baseurl }}/search">Szukaj</a>
 
     <nav class="site-nav">
-
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
       <label for="nav-trigger">
         <span class="menu-icon">
@@ -34,4 +30,8 @@
       </div>
     </nav>
   </div>
+  </div>
 </header>
+  
+
+

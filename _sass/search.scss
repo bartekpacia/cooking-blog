@@ -1,0 +1,40 @@
+.search {
+}
+
+.search__link {
+  color: $text-color;
+  margin-right: 20px;
+  float: none;
+  line-height: $base-line-height * $base-font-size * 2.25;
+
+  &:visited {
+    color: $text-color;
+  }
+
+  &:hover {
+    color: $color-accent;
+  }
+
+  @include media-query($on-palm) {
+    margin-right: 0;
+  }
+}
+
+.search__input {
+  width: 100%;
+  @include relative-font-size(2);
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 3px solid $color-accent;
+}
+
+.search__results-list {
+}
+
+.search__result {
+  @include relative-font-size(1.5);
+  margin-top: 5px;
+  padding: $spacing-unit / 4;
+  padding-left: 0;
+}

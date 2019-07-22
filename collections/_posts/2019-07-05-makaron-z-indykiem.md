@@ -14,15 +14,15 @@ difficulty: 1
 
 ## Składniki
 
-- 300g makaronu tagliatelle
-- 500g piersi z indyka
+- 300 g makaronu tagliatelle
+- 500 g piersi z indyka
 - 3 łyżki oliwy z pomidorów suszonych
 - 1 cebula
 - 2 ząbki czosnku
 - 1/4 szklanki wina czerwonego
 - 200 ml śmietanki 30%
 - 1 duża łyżka serka topionego
-- 100g sera pleśniowego
+- 100 g sera pleśniowego
 - Pomidorki koktajlowe (u mnie żółte i czerwone)
 - Opakowanie rukoli
 - Pomidory suszone i parmezan do ozdoby przy podaniu
