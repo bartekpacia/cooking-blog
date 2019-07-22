@@ -4,7 +4,8 @@ title: "Makaron z indykiem, pomidorkami koktajlowymi i rukolą w sosie serowym"
 thumbnail: https://i.imgur.com/OqhDO5R.jpg
 permalink: /makaron-z-indykiem-pomidorkami-i-rukola-w-sosie.html
 date: 2019-07-02 15:50:30 +0200
-categories: przepis obiad
+category: przepis
+tags: obiad indyk makaron
 time: 45 min
 quantity: 5
 difficulty: 1

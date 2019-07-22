@@ -4,7 +4,8 @@ title: "Babka jogurtowa z polewą czekoladową i malinami"
 thumbnail: https://i.imgur.com/ltaOF5I.jpg
 permalink: /babka-jogurtowa-z-polewa-czekoladowa-i-malinami.html
 date: 2019-07-17 15:00:00 +0200
-categories: przepis wypieki babka czekolada
+category: przepis
+tags: wypieki babka czekolada
 time: 1.5 h
 quantity: 11
 difficulty: 1
@@ -12,7 +13,7 @@ difficulty: 1
 
 ![Imgur](https://i.imgur.com/ltaOF5I.jpg)
 
-## Składniki (w temp. pokojowej) :
+## Składniki (w temp. pokojowej)
 
 - 4 duże jajka
 - 3/4 szklanki cukru
@@ -30,7 +31,7 @@ difficulty: 1
 - maliny do ozdoby
 - lody do podania
 
-## Wykonanie:
+## Wykonanie
 
 1. Piekarnik nastawić góra i dół na 170°.
 

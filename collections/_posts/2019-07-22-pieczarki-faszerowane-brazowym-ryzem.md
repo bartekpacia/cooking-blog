@@ -6,7 +6,6 @@ permalink: /pieczarki-faszerowane-brazowym-ryzem.html
 date: 2019-07-22 18:08:00 +0200
 category: przepis
 tags: obiad kolacja pieczarki brązowy ryż camembert
-categories: obiad kolacja pieczarki brązowy ryż camembert
 time: 1 h
 quantity: 4
 difficulty: 2
@@ -14,33 +13,22 @@ difficulty: 2
 
 ![Imgur](https://i.imgur.com/QZ8ian6.jpg)
 
-Czas: 1h Ilość: 4 Trudność: 2
+## Składniki
 
 - 6 dużych pieczarek (można zastąpić papryką lub pomidorem)
-
 - 100 g brązowego ryżu
-
 - 1 cebula
-
 - 2 ząbki czosnku
-
 - puszka krojonych pomidorów
-
 - 1 papryka
-
 - oliwa z oliwek
-
 - 1 łyżeczka suszonego tymianku
-
 - pęczek natki pietruszki
-
 - sól, pieprz
-
 - 200 g sera camembert
-
 - garść orzechów włoskich
 
-#### Wykonanie:
+## Wykonanie
 
 1. Ugotować ryż według instrukcji na opakowaniu.
 
@@ -68,7 +56,7 @@ Czas: 1h Ilość: 4 Trudność: 2
 
 13. W międzyczasie podprażyć na patelni orzechy (średnia moc przed ok. 5 min).
 
-14. Przed podaniem posypać pieczarki posiekanymi orzechami.`
+14. Przed podaniem posypać pieczarki posiekanymi orzechami.
 
 _Smacznego!_
 

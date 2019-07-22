@@ -4,7 +4,8 @@ title: "Ziemniaczana zapiekanka z kurczakiem, pieczarkami i papryką"
 thumbnail: https://i.imgur.com/Hh9zmBr.jpg
 permalink: /ziemniaczana-zapiekanka-z-kurczakiem-pieczarkami-i-papryka.html
 date: 2019-07-18 13:23:00 +0200
-categories: przepis obiad zapiekanka kurczak
+category: przepis
+tags: obiad zapiekanka kurczak
 time: 1.5 h
 quantity: 5
 difficulty: 2
@@ -12,7 +13,7 @@ difficulty: 2
 
 ![Imgur](https://imgur.com/Hh9zmBr.jpg)
 
-## Składniki:
+## Składniki
 
 - 0.5 kg ziemniaków
 - 2 piersi z kurczaka
@@ -24,7 +25,7 @@ difficulty: 2
 - 2 jajka
 - 150 g sera żółtego
 
-### Przyprawy:
+### Przyprawy
 
 **Do kurczaka:**
 
@@ -50,7 +51,7 @@ difficulty: 2
 - 1 łyżeczka ziół prowansalskich
 - Sól, pieprz (do smaku)
 
-#### Wykonanie:
+## Wykonanie
 
 1. Ziemniaki obrać i pokroić w plasterki (ok. 1 cm).
 

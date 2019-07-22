@@ -11,9 +11,9 @@ layout: default
         {% assign m = date | date: "%-m" %}
         {%- include date.html -%}
       </time>
-      {%- if page.categories.size > 0 -%}
-        {%- for category in page.categories %}
-            <span class="meta meta__category">{{ category }}</span>
+      {%- if page.tags.size > 0 -%}
+        {%- for tag in page.tags %}
+            <span class="meta meta__category">{{ tag }}</span>
         {%- endfor -%}
       {%- endif -%}
       {%- if page.time -%}
