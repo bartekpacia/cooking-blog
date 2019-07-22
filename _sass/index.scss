@@ -38,12 +38,23 @@ i {
 }
 
 .featured-post__thumbnail {
-  border-radius: 5%;
+  border-radius: 15px;
   min-width: 200px;
   height: 180px;
   display: inline-block;
   background-size: cover;
   background-position: center;
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  @include media-query($on-palm) {
+    &:hover {
+      transform: none;
+    }
+  }
 }
 
 .featured-post__content {
@@ -54,6 +65,7 @@ i {
 }
 
 .featured-post__title {
+  padding-top: $spacing-unit / 4;
   text-align: center;
   margin-bottom: $spacing-unit / 4;
 }
