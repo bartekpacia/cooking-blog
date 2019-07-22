@@ -37,20 +37,17 @@
 }
 
 .search {
-  position: relative;
 }
 
 .search__input {
-  display: inline-block;
-  border: 2px solid $color-accent;
-  padding: 3px;
-  margin-right: 20px;
-  border-radius: 15px;
+  width: 100%;
+  @include relative-font-size(2.5);
+  border: none;
+  outline: none;
+  border-bottom: 3px solid $color-accent;
 }
 
 .search__results {
-  display: inline-block;
-  position: absolute;
   background-color: whitesmoke;
 
   li {
