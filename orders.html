@@ -49,6 +49,8 @@ meals:
 
 <div class="portfolio">
   {%- for meal in page.meals -%}
-  <div class="portfolio__card" style="background-image: url( {{ meal.image }} )"></div>
+  <div class="portfolio__card" style="background-image: url( {{ meal.image }} )">
+    <p class="portfolio__card__title">{{ meal.title}}</p>
+  </div>
   {%- endfor -%}
 </div>
