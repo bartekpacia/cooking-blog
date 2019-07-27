@@ -2,22 +2,19 @@
 layout: page
 title: Zamówienia
 permalink: /orders/
-meal_1:
-  title: Tort malinowo-śmietankowy
+meals:
+- title: Tort malinowo-śmietankowy
   price: 90zł
   image: https://i.imgur.com/cEDgVqv.jpg
-meal_2:
-    title: Tort alpejski
-    price: 120zł
-    image: https://i.imgur.com/E3ygZJE.jpg
-meal_3:
-    title: Tort kinder bueno
-    price: 80zł
-    image: https://i.imgur.com/YFaq7nd.jpg
-meal_4:
-    title: Tort kawowo-malinowy z czekoladą i orzechami- 120 zł 
-    price: 120zł
-    image: https://i.imgur.com/kIZbmh9.jpg
+- title: Tort alpejski
+  price: 120zł
+  image: https://i.imgur.com/E3ygZJE.jpg
+- title: Tort kinder bueno
+  price: 80zł
+  image: https://i.imgur.com/YFaq7nd.jpg
+- title: Tort kawowo-malinowy z czekoladą i orzechami- 120 zł 
+  price: 120zł
+  image: https://i.imgur.com/kIZbmh9.jpg
 ---
 
 <i class="poem">
@@ -51,8 +48,7 @@ meal_4:
 </p>
 
 <div class="portfolio">
-  <div class="portfolio__card" style="background-image: url( {{ page.meal_1.image }} )"></div>
-  <div class="portfolio__card" style="background-image: url( {{ page.meal_2.image }}) "></div>
-  <div class="portfolio__card" style="background-image: url( {{ page.meal_3.image }} )"></div>
-  <div class="portfolio__card" style="background-image: url( {{ page.meal_4.image }} )"></div>
+  {%- for meal in page.meals -%}
+  <div class="portfolio__card" style="background-image: url( {{ meal.image }} )"></div>
+  {%- endfor -%}
 </div>
