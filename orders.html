@@ -2,27 +2,57 @@
 layout: page
 title: Zamówienia
 permalink: /orders/
+meal_1:
+  title: Tort malinowo-śmietankowy
+  price: 90zł
+  image: https://i.imgur.com/cEDgVqv.jpg
+meal_2:
+    title: Tort alpejski
+    price: 120zł
+    image: https://i.imgur.com/E3ygZJE.jpg
+meal_3:
+    title: Tort kinder bueno
+    price: 80zł
+    image: https://i.imgur.com/YFaq7nd.jpg
+meal_4:
+    title: Tort kawowo-malinowy z czekoladą i orzechami- 120 zł 
+    price: 120zł
+    image: https://i.imgur.com/kIZbmh9.jpg
 ---
 
 <i class="poem">
-    <p>Torty na uroczystości</p>
-    <p>Ciasta dla miłych gości</p>
-    <p>Gdy czasu brakuje</p>
-    <p>Na wyjątkowe chwile wypieki oferuję</p>
+  <p>Torty na uroczystości</p>
+  <p>Ciasta dla miłych gości</p>
+  <p>Gdy czasu brakuje</p>
+  <p>Na wyjątkowe chwile wypieki oferuję</p>
 </i>
 
-<p>Możliwość osobistego odbioru w Rudach lub z dowozem w okolicach Rybnika, Gliwic i
-     Katowic. Zamówienia proszę składać na mojego <a href="mailto: {{ site.email }}">maila</a>
-     lub kontaktować się ze mną za pomocą mediów społecznościowych <b>przynajmniej tydzień wcześniej</b>.
+<p>
+  Możliwość osobistego odbioru w Rudach lub z dowozem w okolicach Rybnika, Gliwic i Katowic.
+  Zamówienia proszę składać na mojego <a href="mailto: {{ site.email }}">maila</a> lub kontaktować
+  się ze mną za pomocą mediów społecznościowych <b>przynajmniej tydzień wcześniej</b>.
 </p>
 
 <h3 class="personal-collection">Odbiór osobisty</h3>
-     
-<iframe class="map" width="100%" height="500px" frameborder="0" style="border:0" 
-src="https://www.google.com/maps/embed/v1/place?q=Rudy%20ul.%20Borowa%201A&key=AIzaSyBRYqtTne4lxkUCp4WKDqwvPRd0c6KPZzc" 
-allowfullscreen></iframe>
+
+<iframe
+  class="map"
+  width="100%"
+  height="500px"
+  frameborder="0"
+  style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?q=Rudy%20ul.%20Borowa%201A&key=AIzaSyBRYqtTne4lxkUCp4WKDqwvPRd0c6KPZzc"
+  allowfullscreen
+></iframe>
 
 <p>
-    Różne wzory, kształty i kolory, granicą jest tylko Państwa wyobraźnia. 
-    Można samemu zaprojektować lub skorzystać z propozycji poniżej.
+  Różne wzory, kształty i kolory, granicą jest tylko Państwa wyobraźnia. Można samemu zaprojektować
+  lub skorzystać z propozycji poniżej.
 </p>
+
+<div class="portfolio">
+  <div class="portfolio__card" style="background-image: url( {{ page.meal_1.image }} )"></div>
+  <div class="portfolio__card" style="background-image: url( {{ page.meal_2.image }}) "></div>
+  <div class="portfolio__card" style="background-image: url( {{ page.meal_3.image }} )"></div>
+  <div class="portfolio__card" style="background-image: url( {{ page.meal_4.image }} )"></div>
+</div>
