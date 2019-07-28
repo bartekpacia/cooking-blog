@@ -3,18 +3,57 @@ layout: page
 title: Zamówienia
 permalink: /orders/
 meals:
+- title: Tort ferrero rocher z dżemem porzeczkowym i kremem śmietankowym
+  price: 120zł
+  image: https://i.imgur.com/cEDgVqv.jpg
 - title: Tort malinowo-śmietankowy
   price: 90zł
-  image: https://i.imgur.com/cEDgVqv.jpg
+  image: https://i.imgur.com/E3ygZJE.jpg
 - title: Tort alpejski
   price: 120zł
-  image: https://i.imgur.com/E3ygZJE.jpg
+  image: https://i.imgur.com/YFaq7nd.jpg
 - title: Tort kinder bueno
   price: 80zł
-  image: https://i.imgur.com/YFaq7nd.jpg
+  image: https://i.imgur.com/kIZbmh9.jpg
 - title: Tort kawowo-malinowy z czekoladą i orzechami
   price: 120zł
-  image: https://i.imgur.com/kIZbmh9.jpg
+  image: https://i.imgur.com/uq0VozS.jpg
+- title: Tort rabarbarowo-truskawkowy z bezą
+  price: 90zł
+  image: https://i.imgur.com/FLQhBaw.jpg
+- title: Tort bananowo-orzechowy
+  price: 80zł
+  image: https://i.imgur.com/tg1602R.jpg
+- title: Tort truskawkowo-śmietankowy z bezą
+  price: 120zł
+  image: https://i.imgur.com/aBXurhf.jpg
+- title: Tort Rafaello
+  price: 120zł
+  image: https://i.imgur.com/jX8j5LN.jpg
+- title: Tort szpinakowy z kremem śmietankowym
+  price: 90zł
+  image: https://i.imgur.com/zpWf5Gu.jpg
+- title: Tort z słonecznikiem
+  price: 110zł
+  image: https://i.imgur.com/NaSAvJG.jpg
+- title: Tort borówkowo-śmietankowy
+  price: 80zł
+  image: https://i.imgur.com/4UNNEYj.jpg
+- title: Kinder
+  price: 90zł
+  image: https://i.imgur.com/VP3VIPv.jpg
+- title: Tort Oreo
+  price: 100zł
+  image: https://i.imgur.com/ctfy8aU.jpg
+- title: Tort chałwowy
+  price: 90zł
+  image: https://i.imgur.com/GXtG1Zq.jpg
+- title: Tort porzeczkowo-cytrynowy
+  price: 90 zł
+  image: https://i.imgur.com/0r8BKHE.jpg
+- title: Tort śmietankowy z owocami
+  price: 80 zł
+  image: https://i.imgur.com/7RHtZwA.jpg
 ---
 
 <i class="poem">
@@ -50,7 +89,7 @@ meals:
 <div class="portfolio">
   {%- for meal in page.meals -%}
   <div class="portfolio__card" style="background-image: url( {{ meal.image }} )">
-    <p class="portfolio__card__title">{{ meal.title}}</p>
+    <p class="portfolio__card__title">{{ meal.title }}</p>
   </div>
   {%- endfor -%}
 </div>
