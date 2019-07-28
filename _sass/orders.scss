@@ -25,11 +25,26 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  text-align: center;
+  display: flex;
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+    filter: blur(1px);
+
+    .portfolio__card__title {
+      opacity: 1;
+    }
+  }
 }
 
 .portfolio__card__title {
-  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+  padding: $spacing-unit / 3;
+  align-self: center;
   width: 100%;
-  height: 100%;
+  text-align: center;
+  color: white;
+  @include relative-font-size(1.5);
 }
