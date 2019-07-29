@@ -1,0 +1,14 @@
+---
+layout: page
+title: Porady
+permalink: /advices/
+---
+
+<ul class="advice-list">
+    {%- for advice in site.advices -%}
+    <div class="advice-list__advice">
+        <h3> {{ advice.title }}</h3>
+        <p> {{ advice.content }}</p>
+    </div>
+    {%- endfor -%}
+</ul>

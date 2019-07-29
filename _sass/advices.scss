@@ -1,0 +1,9 @@
+.advice-list {
+  margin-left: 0;
+  list-style: none;
+}
+.advice-list__advice {
+  background-color: $grey-color-light;
+  padding: $spacing-unit / 2;
+  margin-bottom: $spacing-unit / 2;
+}
