@@ -1,6 +1,9 @@
 ---
+layout: post
 title: Rodzaje makaronów
 thumbnail: https://i.imgur.com/ITyDOcY.jpg
+
+published: false
 ---
 
 Co ma tu być:

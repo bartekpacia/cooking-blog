@@ -8,8 +8,8 @@ permalink: /advices/
     {%- for advice in site.advices -%}
     <div class="advice-list__advice">
         <h3> 
-            <a href="{{ advice.url }}">
-                {{ advice.title }}
+            <a href="{{ advice.url | relative_url}}">
+                {{ advice.title | escape }}
             </a>
         </h3>
         <p> {{ advice.content }}</p>

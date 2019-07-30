@@ -26,6 +26,8 @@ google_analytics: UA-144186929-1
 collections_dir: collections
 collections:
   advices:
+    output: true
+    permalink: /:title
 
 # Build settings
 markdown: kramdown
