@@ -2,7 +2,7 @@
 layout: post
 title: "Pieczarki faszerowane brązowym ryżem, warzywami i serem camembert"
 thumbnail: https://i.imgur.com/QZ8ian6.jpg
-permalink: /pieczarki-faszerowane-brazowym-ryzem.html
+permalink: /pieczarki-faszerowane-brazowym-ryzem
 date: 2019-07-22 18:08:00 +0200
 category: przepis
 tags: obiad kolacja pieczarki brązowy ryż camembert
