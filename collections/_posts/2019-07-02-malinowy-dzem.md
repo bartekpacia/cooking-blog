@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Letni, domowy, malinowy dżem"
+title: Letni, domowy, malinowy dżem
 thumbnail: https://szefpoleca.pl/wp-content/uploads/2016/12/wysmienity-dzem-malinowy.jpg
 permalink: /example-first-post
 date: 2019-07-02 15:50:30 +0200
