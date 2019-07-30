@@ -1,7 +1,7 @@
 ---
 layout: page
 title: O mnie
-permalink: /about/
+permalink: /ja/
 ---
 
 ![Imgur](https://i.imgur.com/fICQDfO.png){: .gallery-thumb}

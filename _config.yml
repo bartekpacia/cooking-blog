@@ -27,11 +27,11 @@ collections_dir: collections
 collections:
   posts:
     output: true
-    permalink: /:collection/:title
+    permalink: /przepisy/:title
     published: false
   advices:
     output: true
-    permalink: /:collection/:title
+    permalink: /porady/:title
 
 # Build settings
 markdown: kramdown
