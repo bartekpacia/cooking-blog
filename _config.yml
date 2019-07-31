@@ -23,6 +23,8 @@ instagram_username: testersmakow
 disqus_shortname: taste-tester-blog
 google_analytics: UA-144186929-1
 
+excerpt_separator: <!--more-->
+
 collections_dir: collections
 collections:
   posts:

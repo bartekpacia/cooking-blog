@@ -5,13 +5,22 @@ permalink: /porady/
 ---
 
 <ul class="advice-list">
-    {%- for advice in site.advices -%}
-    <div class="advice-list__advice">
-        <h3> 
-            <a href="{{ advice.url | relative_url}}">
-                {{ advice.title | escape }}
-            </a>
-        </h3>
+  {%- for advice in site.advices -%}
+  <div class="advice-list__advice">
+    <div class="advice-list__advice__thumbnail" style="background-image: url( {{ advice.thumbnail }} )"></div>
+    <div class="advice-list__advice__content">
+      <time class="meta meta__date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+          {% assign date = advice.date %}
+          {% assign m = date | date: "%-m" %}
+          {%- include date.html -%}
+      </time>
+      <h3 class="advice-list__advice__title">
+        <a href="{{ advice.url | relative_url }}">
+          {{ advice.title | escape }}
+        </a>
+      </h3>
+      {{ advice.excerpt }}
     </div>
-    {%- endfor -%}
+  </div>
+  {%- endfor -%}
 </ul>

@@ -4,9 +4,13 @@ title: Jajka gotowane, nie tylko na wielkanoc
 thumbnail: https://i.imgur.com/Z9xAAh6.jpg
 ---
 
-![Imgur](https://i.imgur.com/Z9xAAh6.jpg)
+Na śniadanie na kanapkę, jako dodatek do obiadu, na kolację do sałatki, a w okresie wielkanocnym jako śliczne pisanki - jajka gotowane są bardzo popularne na naszych stołach.
 
-Na śniadanie na kanapkę, jako dodatek do obiadu, na kolację do sałatki, a w okresie wielkanocnym jako śliczne pisanki - jajka gotowane są bardzo popularne na naszych stołach. Mimo, że robimy je tak często, nie raz towarzyszy nam przy tym wiele problemów. Zbyt miękkie, pęknięcia podczas gotowania, skorupka nie chce odchodzić od jajka... Na to i resztę jajecznych problemów postaram się wam zaradzić poniżej.
+<!--more-->
+
+Mimo, że robimy je tak często, nie raz towarzyszy nam przy tym wiele problemów. Zbyt miękkie, pęknięcia podczas gotowania, skorupka nie chce odchodzić od jajka... Na to i resztę jajecznych problemów postaram się wam zaradzić poniżej.
+
+![Imgur](https://i.imgur.com/Z9xAAh6.jpg){: .center-image}
 
 **Jak gotować jajka?**
 
