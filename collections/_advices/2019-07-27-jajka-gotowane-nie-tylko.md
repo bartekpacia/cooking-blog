@@ -31,9 +31,10 @@ Mimo, że robimy je tak często, nie raz towarzyszy nam przy tym wiele problemó
 **Wielkość jajek**
 
 Rozmiar jajek ma ogromne znaczenie podczas gotowania jajek. W zależności od rozmiaru jajka gotuje się dłużej lub krócej.
-Małe "S"- do 5 cm
-Średnie "M" - około 6 cm
-Duże "L"- około 7 cm
+
+- Małe "S"- do 5 cm
+- Średnie "M" - około 6 cm
+- Duże "L"- około 7 cm
 
 \* Na centymetry - mierząc np. suwmiarką, od czubka do czubka. Jajko możesz też zmierzyć "na oko", przykładając je do kartki w kratkę, czy linijki.
 
