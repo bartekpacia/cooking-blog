@@ -1,6 +1,10 @@
 .search {
 }
 
+.search__hint {
+  color: $grey-color;
+}
+
 .search__link {
   color: $text-color;
   margin-right: 20px;
