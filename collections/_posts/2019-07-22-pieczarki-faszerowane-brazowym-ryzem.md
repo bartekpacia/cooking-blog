@@ -1,4 +1,6 @@
 ---
+permalink: /pieczarki-faszerowane-brazowym-ryzem
+
 layout: post
 title: Pieczarki faszerowane brązowym ryżem, warzywami i serem camembert
 thumbnail: https://i.imgur.com/QZ8ian6.jpg

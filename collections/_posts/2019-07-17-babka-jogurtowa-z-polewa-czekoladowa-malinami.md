@@ -1,4 +1,6 @@
 ---
+permalink: /babka-jogurtowa-z-polewa-czekoladowa-i-malinami
+
 layout: post
 title: Babka jogurtowa z polewą czekoladową i malinami
 thumbnail: https://i.imgur.com/ltaOF5I.jpg

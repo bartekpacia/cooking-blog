@@ -1,4 +1,6 @@
 ---
+permalink: /ziemniaczana-zapiekanka-z-kurczakiem-pieczarkami-i-papryka
+
 layout: post
 title: Ziemniaczana zapiekanka z kurczakiem, pieczarkami i papryką
 thumbnail: https://i.imgur.com/Hh9zmBr.jpg
