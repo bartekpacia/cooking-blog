@@ -1,4 +1,6 @@
 ---
+permalink: /makaron-z-indykiem-pomidorkami-i-rukola-w-sosie
+
 layout: post
 title: "Makaron z indykiem, pomidorkami koktajlowymi i rukolą w sosie serowym"
 thumbnail: https://i.imgur.com/OqhDO5R.jpg
