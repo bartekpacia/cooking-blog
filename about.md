@@ -1,16 +1,16 @@
 ---
 layout: page
-title: O mnie
-permalink: /ja/
+title: About me
+permalink: /me/
 ---
 
-![Imgur](https://i.imgur.com/fICQDfO.png){: .gallery-thumb}
+![Imgur](/assets/images/bartek1.jpg){: .gallery-thumb}
 
-Nazywam się Julia. Mój przepis na życie to kochająca rodzina, wspaniali przyjaciele i pasja, którą jest gotowanie i pieczenie. Uwielbiam również podróżować.
+My name's Bartek and I can't cook shit. However, I like eating and looking at food while coding. It's
+quite pleasant and motivating.
 
-![Imgur](https://i.imgur.com/LevFESw.jpg)
+![Imgur](/assets/images/bartek2.png)
 
-Nazwa _Tester Smaków_ w pełni oddaje mój charakter. Lubię próbować, ryzykować, odkrywać. W pełni korzystam
-z życia, jestem w ciągłym ruchu. Przekładam tę energię również do kuchni. Gotowanie i pieczenie jest dla mnie przygodą. Ten blog powstał, abyś mógł do niej dołączyć.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu porta purus. Integer lorem sapien, pretium vitae iaculis sodales, tempor ut sapien. Mauris vel iaculis lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id neque sed turpis mollis tincidunt. Aliquam erat volutpat.
 
-Znajdziesz tutaj wiele przepisów, wskazówek i porad dotyczących kuchennych wibracji. Osoby z Górnego Śląska mają również możliwość zamówienia tortów i innych wypieków na różne okazje. Ja nie tylko testuję smaki. Ja je _tworzę_.
+Donec sem libero, lacinia eget dignissim quis, rhoncus ac ipsum. Ut scelerisque risus non pellentesque blandit. Pellentesque vel sodales augue. Nunc in congue arcu, ac accumsan dolor. Duis vestibulum felis eu nulla fringilla, id tincidunt odio hendrerit.

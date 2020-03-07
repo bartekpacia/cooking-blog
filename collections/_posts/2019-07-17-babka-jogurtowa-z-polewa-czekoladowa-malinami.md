@@ -1,12 +1,10 @@
 ---
-permalink: /babka-jogurtowa-z-polewa-czekoladowa-i-malinami
-
 layout: post
-title: Babka jogurtowa z polewą czekoladową i malinami
+title: Yogurt cake with chocolate coating and raspberries
 thumbnail: https://i.imgur.com/ltaOF5I.jpg
 date: 2019-07-17 15:00:00 +0200
-category: przepis
-tags: wypieki babka czekolada
+category: recipe
+tags: bakings cake chocolate
 time: 1.5 h
 quantity: 11
 difficulty: 1

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Jajka gotowane, nie tylko na wielkanoc
+title: Boiled eggs not only for Easter
 thumbnail: https://i.imgur.com/Z9xAAh6.jpg
 ---
 
-Na śniadanie na kanapkę, jako dodatek do obiadu, na kolację do sałatki, a w okresie wielkanocnym jako śliczne pisanki - jajka gotowane są bardzo popularne na naszych stołach.
+Used to bump up the taste of breakfast sandwiches, as an addition to dinner, for supper for a salad, and during Easter as beautiful Easter eggs - boiled eggs are very popular on our tables.
 
 <!--more-->
 

@@ -1,12 +1,10 @@
 ---
-permalink: /ziemniaczana-zapiekanka-z-kurczakiem-pieczarkami-i-papryka
-
 layout: post
-title: Ziemniaczana zapiekanka z kurczakiem, pieczarkami i papryką
+title: Potato casserole with chicken, mushrooms and peppers
 thumbnail: https://i.imgur.com/Hh9zmBr.jpg
 date: 2019-07-18 13:23:00 +0200
-category: przepis
-tags: obiad zapiekanka kurczak
+category: recipe
+tags: dinner casserole chicken
 time: 1.5 h
 quantity: 5
 difficulty: 2

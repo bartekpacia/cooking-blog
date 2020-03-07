@@ -1,12 +1,10 @@
 ---
-permalink: /makaron-z-indykiem-pomidorkami-i-rukola-w-sosie
-
 layout: post
-title: "Makaron z indykiem, pomidorkami koktajlowymi i rukolą w sosie serowym"
+title: Pasta with turkey, cherry tomatoes and arugula in a cheese sauce
 thumbnail: https://i.imgur.com/OqhDO5R.jpg
 date: 2019-07-05 15:50:30 +0200
-category: przepis
-tags: obiad indyk makaron
+category: recipe
+tags: dinner turkey pasta
 time: 45 min
 quantity: 5
 difficulty: 1

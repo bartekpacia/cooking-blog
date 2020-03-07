@@ -1,12 +1,10 @@
 ---
-permalink: /pieczarki-faszerowane-brazowym-ryzem
-
 layout: post
-title: Pieczarki faszerowane brązowym ryżem, warzywami i serem camembert
+title: Mushrooms stuffed with brown rice, vegetables and camembert cheese
 thumbnail: https://i.imgur.com/QZ8ian6.jpg
 date: 2019-07-22 18:08:00 +0200
-category: przepis
-tags: obiad kolacja pieczarki brązowy ryż camembert
+category: recipe
+tags: dinner supper mushrooms brown rice camembert
 time: 1 h
 quantity: 4
 difficulty: 2
